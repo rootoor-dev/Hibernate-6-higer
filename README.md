@@ -46,15 +46,10 @@ hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
 ## JPA persistence.xml
 
 ```XML
-<property name="hibernate.search.backend.hosts"
-  value="elasticsearch.mycompany.com"/> ①
-<property name="hibernate.search.backend.protocol"
-  value="https"/> ②
-<property name="hibernate.search.backend.username"
-  value="ironman"/> ③
-<property name="hibernate.search.backend.password"
-  value="j@rV1s"/>
-
+<property name="hibernate.search.backend.hosts" value="elasticsearch.mycompany.com"/>
+<property name="hibernate.search.backend.protocol" value="https"/>
+<property name="hibernate.search.backend.username" value="ironman"/>
+<property name="hibernate.search.backend.password" value="j@rV1s"/>
 ```
   
 
